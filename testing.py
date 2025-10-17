@@ -9,7 +9,7 @@ from tensorflow.keras import datasets, layers, models
 train_images, test_images = train_images / 255.0, test_images / 255.0
 
 # Correct class names
-class_names = ['plane','car','bird','cat','dog','frog','horse','ship','boat','truck']
+class_names = ['plane','car','bird','cat','Deer','dog','frog','horse','ship','truck']
 
 # Limit dataset size (optional)
 train_images = train_images[:20000]
