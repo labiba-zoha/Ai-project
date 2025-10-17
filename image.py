@@ -9,7 +9,7 @@ from tensorflow.keras import datasets, layers, models
 # Normalize pixel values
 train_images, test_images = train_images / 255.0, test_images / 255.0
 
-class_names = ['plane','car','bird','cat','dog','frog','horse','ship','truck']
+class_names = ['plane','car','bird','cat','Deer','dog','frog','horse','ship','truck']
 
 
 
